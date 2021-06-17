@@ -1,0 +1,112 @@
+        *{
+            margin: 0;
+            padding: 0;
+        }    
+        .navbar {
+          display: flex;
+        }    
+        .nav-list {
+            width: 50%;
+            background-color: rgb(231, 153, 7);
+            display: flex;
+            align-items: center;
+        }    
+        .logo {
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }    
+        .logo img {
+            width: 45%;
+        }    
+        .nav-list li {
+            float: left;
+            list-style: none;
+            padding: 0px 20px;
+        }    
+        .nav-list li a {
+            text-decoration: none;
+            color: black;
+            font-size: larger;
+        }    
+        .right-nav {
+            width: 50%;
+            background-color: rgb(231, 153, 7);
+            text-align: right;
+            padding: 15px;
+            margin-top: -16px;
+        }    
+        #search {
+            padding: 0px;
+            font-size: 16px;
+            border: 1 black;
+            border-radius: 5px;
+        }
+        .carousal{
+            margin-top: px;
+        }
+        .navbar-light{
+            background-color:rgb(231, 153, 7) ;
+        }
+        .btn{
+            background-color: rgb(231, 153, 7);
+            color: black;
+            border: 1;
+            border-color: black;
+        }
+        .btn:hover{
+            background-color: black;
+        }
+        .nav-link{
+            color: black;
+            font-size: 16px;
+        }
+        .gallary{
+            background-color: black;
+            height: 1150px;
+            width: 100%;
+        }
+        .container-gallary{
+            margin-top: -10px;
+            width: 90%;
+            
+            background-color: rgb(0, 0, 0);
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .h1-1{
+            height: 60px;
+        }
+        .img{
+            transition-property: all;
+        }
+        .img:hover{
+            transform: translate(5px,5px);
+            transition-duration: 0.5s;
+        }
+        #intro{
+            height: 300px;
+            width: 60%;
+            background-color: rgb(0, 0, 0);
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #p1{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+            text-align: justify;
+            color: white;
+        }
+        .team{
+            width: 80%;
+            height: 500px;
+            background-color: white;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .gallery{
+            margin-left: auto;
+            margin-right: auto;
+        }
+     
